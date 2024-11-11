@@ -20,8 +20,7 @@ public class ScreenmatchApplication implements CommandLineRunner {
 
 		System.out.println(json);
 
-		json = consumoAPI.obterDados("https://coffee.alexflipnote.dev/random.json");
-
-		System.out.println(json);
+		//json = consumoAPI.obterDados("https://coffee.alexflipnote.dev/random.json");
+		//System.out.println(json);
 	}
 }
